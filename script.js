@@ -2,35 +2,25 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caica-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
-const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: ,
-        alternativas: [
-
-        ]
+        enunciado: "Quem deve ser responsável pela regulamentação da IA no futuro",
+        alternativas: [ "Governos e entidades internacionais, Apenas as empresas que desenvolvem IA"],
     },
     {
-        enunciado: ,
-        alternativas: [
-
-        ]
+        enunciado:"A IA deve ser desenvolvida com o foco em quê ",
+        alternativas: [ "Melhorar a vida humana e promover o bem-estar, Substituir completamente o trabalho humano"],
     },
-    enunciado: ,
-    alternativas: [
-
-    ]
+    enunciado:" O que é essencial para garantir a vida humana ",
+    alternativas: ["Transparência, supervisão e diretrizes claras"],
     {
-        enunciado: ,
-        alternativas: [
-
-        ]
+        enunciado:"A IA pode decidir sobre quesrões políticas no futuro" ,
+        alternativas: ["Não, as desicões políticas devem ser tomadas por humanos, Sim, a IA pode escolher líderes e formular políticas"],
     },
     {
-        enunciado: , 
-        alternativas:[
-            
-        ]
+        enunciado:"O futuro da Ia depende de quem" , 
+        alternativas:["Depende de como a sociedade escolhe utilizá-lá, Depende apenas dos cientistas e engenheiros" ],
     }
 ]

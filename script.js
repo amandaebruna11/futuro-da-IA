@@ -24,3 +24,18 @@ const perguntas = [
         alternativas:["Depende de como a sociedade escolhe utilizá-lá, Depende apenas dos cientistas e engenheiros" ],
     }
 ]
+ let atual = 0;
+ let perguntaAtual;
+
+ function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntasAtual.enuciado;
+    mostraAlternativas();
+ }
+ function mostraAlternativas() {
+    for(const alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa;
+        botaoAlternativas.appendChild(botaoAlternativas);
+    }
+ }

@@ -46,7 +46,7 @@ const perguntas = [
     mostraPergunta();
  }
  function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Voce comcluiu o quiz.";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
  }
